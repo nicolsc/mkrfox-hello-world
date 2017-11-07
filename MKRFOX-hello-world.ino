@@ -4,6 +4,7 @@ void setup() {
     Serial.println("Unable to init the Atmel ATA8520 Sigfox chipset");
     return;
   }
+  SigFox.debug();
   short valA = 7700;
   //short valB = 128;
   //float valC = 654.32;
